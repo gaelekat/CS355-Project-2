@@ -1,0 +1,180 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta lang="en">
+  <title>Tixbox | Home</title>
+  <link rel="stylesheet" href="homeCSS.css">
+</head>
+
+<body>
+  <section class="navbar">
+    <a style="background-color:red; padding: 10px; font-weight:bold" href="homeHTML.html">Tixbox</a></li>
+
+    <div class="dropdown">
+      <a href="musicHTML.html" class="dropbtn">Explore</a>
+      <div class="dropdown-content">
+      <a href="musicHTML.html">All music</a>
+        <a href="#">A</a>
+        <a href="#">B</a>
+        <a href="#">C</a>
+      </div> 
+    </div>
+
+    <a href="aboutHTML.html">About</a>
+    <a href="contactHTML.html">Contact Us</a>
+    <a style="float:right" href="loginHTML.html">Register/Sign in</a>
+  </section>
+
+  <section class="searchbar">
+    <input type="text" id="searchmusic" name="searchmusic" placeholder="Search for by Location, Musician, or Genre">
+    
+    <input type="submit">
+  </section>
+
+  <section class="slideshow>
+  <script src="homeJS.js"></script>
+
+    <div class="mySlides fade">
+      <img src="homeImages/kendrick.jpg" style="max-width:100%;">
+      <div class="hero-text">
+        <h1>Kendrick Lamar</h1>
+        <h3>May 14, 2024 @ 8PM</h3>
+        <h3>Prudential Center, NJ</h3>
+        <a href="musicHTML.html"><button>Explore</button></a>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="homeImages/bruno.jpg" style="max-width:100%;">
+      <div class="hero-text">
+        <h1>Bruno Mars</h1>
+        <h3>May 30, 2024 @ 8PM</h3>
+        <h3>SoFi Stadium, LA</h3>        
+        <a href="musicHTML.html"><button>Explore</button></a>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="homeImages/ariana.jpg" style="max-width:100%;">
+      <div class="hero-text">
+        <h1>Ariana Grande</h1>
+        <h3>July 15, 2024 @ 8PM</h3>
+        <h3>Madison Square Garden, NY</h3>
+        <a href="musicHTML.html"><button>Explore</button></a>
+      </div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)"><</a>
+    <a class="next" onclick="plusSlides(1)">></a>
+  </section>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <script src="homeJS.js"></script>
+
+  <div>
+    <hr style="width:50%">
+  </div>
+
+  <section class="recommend">
+    <h1 style="font-family:Arial;">You might like...</h1>
+ 
+    <div class="container">
+      <a href="musicHTML.html">
+        <img src="homeImages/amonkey.jpg" alt="Arctic Monkeys" class="image">
+      </a>
+      <div class="overlay">Arctic Monkeys</div>
+    </div>
+
+    <div class="container">
+      <a href="musicHTML.html">
+        <img src="homeImages/billie.jpg" alt="Billie Eilish" class="image" style="height:20%">
+      </a>
+      <div class="overlay">Billie Eilish</div>
+    </div>
+
+    <div class="container">
+      <a href="musicHTML.html">
+        <img src="homeImages/ksi.jpg" alt="KSI" class="image">
+      </a>
+      <div class="overlay">KSI</div>
+    </div>
+
+    <div class="container">
+      <a href="musicHTML.html">
+        <img src="homeImages/dua.jpg" alt="Dua Lipa" class="image">
+      </a>
+      <div class="overlay">Dua Lipa</div>
+    </div>
+
+    <div><hr style="width:50%"></div>
+
+   <h1 style="font-family:Arial;">Popular/Trending...</h1>
+ 
+    <div class="container">
+        <a href="musicHTML.html">
+          <img src="homeImages/bts.jpg" alt="BTS" class="image">
+        </a>
+        <div class="overlay">BTS</div>
+    </div>
+
+    <div class="container">
+        <a href="musicHTML.html">
+          <img src="homeImages/rihanna.jpg" alt="Rihanna" class="image">
+        </a>
+        <div class="overlay">Rihanna</div>
+    </div>
+
+    <div class="container">
+        <a href="musicHTML.html">
+          <img src="homeImages/bp.jpg" alt="Blackpink" class="image">
+        </a>
+        <div class="overlay">Blackpink</div>
+    </div>
+
+    <div class="container">
+        <a href="musicHTML.html">
+          <img src="homeImages/bieber.jpg" alt="Justin Bieber" class="image">
+        </a>
+        <div class="overlay">Justin Bieber</div>
+    </div>
+
+  </section>
+
+  <br>
+  <div>
+    <hr style="width:50%">
+  </div>
+  <br>
+
+  <section class="information">
+    <div class="flex-container">
+
+      <div>
+        <a style="background-color:red; padding: 10px; text-decoration:none; color:white; font-weight:bold" href="homeHTML.html">Tixbox</a></li>
+        <p>Follow us on:<br>
+        <a href="#">Instagram</a><br>
+        <a href="#">X</a><br>
+        <a href="#">Facebook</a>
+        </p>
+      </div>
+
+      <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+
+      <div>
+        <p>Gaele Katindig</p>
+        <p>Project 2</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
